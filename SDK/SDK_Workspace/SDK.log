@@ -1,0 +1,13 @@
+09:22:55.857 INFO  - Processing command line option -hwspec D:\RA160-2016\lab3\SDK\SDK_Export\hw\system.xml. 
+09:29:11.631 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab3/SDK/SDK_Workspace/lab3_hw_platform/download.bit" 
+09:31:15.610 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:31:30.460 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:32:16.940 WARN  - Terminating existing sessions on processor microblaze_0 
+09:32:18.228 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab3/SDK/SDK_Workspace/lab3_hw_platform/download.bit" 
+09:33:02.438 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+09:33:10.569 INFO  - Processing command line option -hwspec D:\RA160-2016\lab3\SDK\SDK_Export\hw\system.xml. 
+09:33:47.975 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab3/SDK/SDK_Workspace/lab3_hw_platform/download.bit" 
+10:10:20.854 INFO  - Project lab3_hw_platform's source hardware specification located at D:\RA160-2016\lab3\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+10:15:00.451 INFO  - Project lab3_hw_platform's source hardware specification location will not be monitored anymore. 
+10:15:03.752 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

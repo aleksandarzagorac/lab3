@@ -2,7 +2,7 @@
 * Filename:          D:\RA160-2016\lab3/drivers/my_peripheral_v1_00_a/src/my_peripheral_selftest.c
 * Version:           1.00.a
 * Description:       Contains a diagnostic self-test function for the my_peripheral driver
-* Date:              Mon Mar 18 10:06:10 2019 (by Create and Import Peripheral Wizard)
+* Date:              Thu Mar 21 09:42:42 2019 (by Create and Import Peripheral Wizard)
 *****************************************************************************/
 
 

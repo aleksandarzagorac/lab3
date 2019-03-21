@@ -35,7 +35,7 @@
 -- Filename:          my_peripheral.vhd
 -- Version:           1.00.a
 -- Description:       Top level design, instantiates library components and user logic.
--- Date:              Mon Mar 18 10:06:09 2019 (by Create and Import Peripheral Wizard)
+-- Date:              Thu Mar 21 09:42:41 2019 (by Create and Import Peripheral Wizard)
 -- VHDL Standard:     VHDL'93
 ------------------------------------------------------------------------------
 -- Naming Conventions:
@@ -138,16 +138,11 @@ entity my_peripheral is
   (
     -- ADD USER PORTS BELOW THIS LINE ------------------
     --USER ports added here
-	
-
-
+	 
+	 
 	 LED_Data : out std_logic_vector(7 downto 0);
 	 DIP_Data : in std_logic_vector(7 downto 0);
-
-
-
-
-
+	 
     -- ADD USER PORTS ABOVE THIS LINE ------------------
 
     -- DO NOT EDIT BELOW THIS LINE ---------------------
@@ -312,7 +307,6 @@ begin
     (
       -- MAP USER PORTS BELOW THIS LINE ------------------
       --USER ports mapped here
-		
 		
 		LED_Data => LED_Data,
 		DIP_Data => DIP_Data,

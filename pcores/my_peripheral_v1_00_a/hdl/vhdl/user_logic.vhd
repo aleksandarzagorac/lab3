@@ -26,7 +26,7 @@
 -- Filename:          user_logic.vhd
 -- Version:           1.00.a
 -- Description:       User logic.
--- Date:              Mon Mar 18 10:06:09 2019 (by Create and Import Peripheral Wizard)
+-- Date:              Thu Mar 21 09:42:41 2019 (by Create and Import Peripheral Wizard)
 -- VHDL Standard:     VHDL'93
 ------------------------------------------------------------------------------
 -- Naming Conventions:
@@ -100,10 +100,9 @@ entity user_logic is
     --USER ports added here
 	 
 	 
+	 
 	 LED_Data : out std_logic_vector(7 downto 0);
 	 DIP_Data : in std_logic_vector(7 downto 0);
-	 
-	 
     -- ADD USER PORTS ABOVE THIS LINE ------------------
 
     -- DO NOT EDIT BELOW THIS LINE ---------------------
@@ -150,11 +149,11 @@ architecture IMP of user_logic is
 begin
 
   --USER logic implementation added here
-  
-  
+
+
 	LED_Data <= slv_reg0(7 downto 0);
-	
-	
+
+
   ------------------------------------------
   -- Example code to read/write user logic slave model s/w accessible registers
   -- 
@@ -214,8 +213,8 @@ begin
   ------------------------------------------
   -- Example code to drive IP to Bus signals
   ------------------------------------------
- IP2Bus_Data(31 downto 8) <= (others=>'0');
- IP2Bus_Data(7 downto 0) <= DIP_Data(7 downto 0);
+  IP2Bus_Data(31 downto 8) <= (others=>'0');
+  IP2Bus_Data(7 downto 0) <= DIP_Data(7 downto 0);
 
   IP2Bus_WrAck <= slv_write_ack;
   IP2Bus_RdAck <= slv_read_ack;
